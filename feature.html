@@ -30,6 +30,17 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        h5.mb-0 {
+    margin-bottom: 10px !important;
+}
+
+.testimonial-carousel .owl-nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+    </style>
 </head>
 
 <body>
@@ -48,18 +59,20 @@
                     <span class="fa fa-phone-alt me-2"></span>
                     <span>+91 98300 85648</span>
                 </div>
-                <div class="h-100 d-inline-flex align-items-center">
+                <!-- <div class="h-100 d-inline-flex align-items-center">
                     <span class="far fa-envelope me-2"></span>
                     <span>Info.thevanika@gmail.com</span>
-                </div>
+                </div> -->
             </div>
             <div class="col-lg-5 px-5 text-end">
                 <div class="h-100 d-inline-flex align-items-center mx-n2">
-                    <span>Follow Us:</span>
+                    <span class="far fa-envelope me-2"></span>
+                    <span>Info.thevanika@gmail.com</span>
+                    <!-- <span>Follow Us:</span> -->
                     <!-- <a class="btn btn-link text-light" href=""><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-link text-light" href=""><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-link text-light" href=""><i class="fab fa-linkedin-in"></i></a> -->
-                    <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a>
+                    <!-- <a class="btn btn-link text-light" href=""><i class="fab fa-instagram"></i></a> -->
                 </div>
             </div>
         </div>
@@ -80,21 +93,19 @@
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
                 <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="feature.html" class="nav-item nav-link">Featured</a>
+                
                 <a href="Gallery.html" class="nav-item nav-link">Gallery</a>
-                <!-- <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Occasion</a>
                     <div class="dropdown-menu bg-light m-0">
-                        <a href="feature.html" class="dropdown-item">Features</a>
-                        <a href="quote.html" class="dropdown-item">Free Quote</a>
-                        <a href="team.html" class="dropdown-item">Our Team</a>
-                        <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                        <a href="404.html" class="dropdown-item">404 Page</a>
+                        <a href="feature.html" class="dropdown-item">Planting</a>
+                        <a href="gifting.html" class="dropdown-item">Gifting</a>
+                        
                     </div>
-                </div> -->
+                </div>
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
-            <a href="tel:+91 9830085648" class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">Book A Call<i class="fa fa-arrow-right ms-3"></i></a>
+            <a href="tel:+91 9830085648" class="btn btn-primary py-4 px-lg-4 rounded-0 d-none d-lg-block">Call Us<i class="fa fa-arrow-right ms-3"></i></a>
         </div>
     </nav>
     <!-- Navbar End -->
@@ -103,12 +114,12 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container text-center py-5">
-            <h1 class="display-3 text-white mb-4 animated slideInDown">Featured </h1>
+            <h1 class="display-3 text-white mb-4 animated slideInDown">Planting </h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb justify-content-center mb-0">
                     <li class="breadcrumb-item"><a href="#">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Featured</li>
+                    <li class="breadcrumb-item active" aria-current="page">Planting</li>
                 </ol>
             </nav>
         </div>
@@ -121,7 +132,7 @@
         <div class="container">
             <div class="text-left mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 100%;">
                 <!-- <p class="fs-5 fw-bold text-primary">Our Services</p> -->
-                <h1 class="display-5 mb-5">Who will you dedicate your Tree?
+                <h1 class="display-5 mb-5">Who will you dedicate your tree to?
 
                 </h1>
             </div>
@@ -134,6 +145,11 @@
                         <h5 class="mb-0">Trees for Birthday 
 
                         </h5>
+                        <a href="javascript:void(0);" class="learn-more-link" onclick="toggleDetails(this)">Learn more<i class="fa fa-arrow-right ms-3"></i></a>
+            <div class="details" style="display: none; margin-top: 10px;">
+                <p class="ttttt">Plant a tree today as a living gift that will continue to grow and thrive, just like your friendship. A tree is a symbol of longevity, resilience, and the enduring nature of life. As it takes root and reaches for the sky, so too will your bond with the recipient. It's a gift that keeps on giving, not only providing shade and beauty but also contributing to a healthier planet.</p>
+                <a href="#contact" class="btn btn-primary">Contact Now</a>
+            </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -144,6 +160,11 @@
                         <h5 class="mb-0">Trees for Wedding 
 
                         </h5>
+                        <a href="javascript:void(0);" class="learn-more-link" onclick="toggleDetails(this)">Learn more<i class="fa fa-arrow-right ms-3"></i></a>
+            <div class="details" style="display: none; margin-top: 10px;">
+                <p class="ttttt">Gift a tree, give a breath. A lasting symbol of love and health, a tree planted on a wedding day is a testament to the enduring power of a new union. As it grows and flourishes, so too will your love, rooted in the earth and reaching for the heavens. A tree is a symbol of longevity, resilience, and the cycle of life, mirroring the journey of a marriage.</p>
+                <a href="#contact" class="btn btn-primary">Contact Now</a>
+            </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -154,6 +175,11 @@
                         <h5 class="mb-0">Trees for New Beginnings
 
                         </h5>
+                        <a href="javascript:void(0);" class="learn-more-link" onclick="toggleDetails(this)">Learn more<i class="fa fa-arrow-right ms-3"></i></a>
+            <div class="details" style="display: none; margin-top: 10px;">
+                <p class="ttttt">Planting a tree is more than just an act of gardening; it’s a symbol of hope and new beginnings. Trees represent growth, resilience, and the enduring nature of life. Whether it’s to commemorate a birth, a wedding, or a new home, a tree can serve as a lasting legacy.</p>
+                <a href="#contact" class="btn btn-primary">Contact Now</a>
+            </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -161,9 +187,14 @@
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 100%; height: 100%;">
                             <img src="./images/eight.jpg" width="100%">
                         </div>
-                        <h5 class="mb-0">Trees for Wedding
+                        <h5 class="mb-0">Trees for Wedding Anniversary
 
                         </h5>
+                        <a href="javascript:void(0);" class="learn-more-link" onclick="toggleDetails(this)">Learn more<i class="fa fa-arrow-right ms-3"></i></a>
+            <div class="details" style="display: none; margin-top: 10px;">
+                <p class="ttttt">Gift a tree, give a breath. A lasting symbol of love and health, a tree planted on a wedding day is a testament to the enduring power of a new union. As it grows and flourishes, so too will your love, rooted in the earth and reaching for the heavens. A tree is a symbol of longevity, resilience, and the cycle of life, mirroring the journey of a marriage.</p>
+                <a href="#contact" class="btn btn-primary">Contact Now</a>
+            </div>
                     </div>
                 </div>
             </div>
@@ -174,7 +205,12 @@
                         <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 100%; height: 100%;">
                             <img src="./images/9.jpg" width="100%">
                         </div>
-                        <h5 class="mb-0">Belpatra Trees for Shiv Ji near Mahakaleshwar Jyotirlinga</h5>
+                        <h5 class="mb-0"> Trees for Shiv Ji near Mahakaleshwar Jyotirlinga</h5>
+                        <a href="javascript:void(0);" class="learn-more-link" onclick="toggleDetails(this)">Learn more<i class="fa fa-arrow-right ms-3"></i></a>
+            <div class="details" style="display: none; margin-top: 10px;">
+                <p class="ttttt">Its trifoliate leaves, symbolic of the Hindu trinity of Brahma, Vishnu, and Mahesh, are considered sacred offerings to the deity. Planting Belpatra trees near the revered Mahakaleshwar Jyotirlinga is a profound act of devotion, connecting the devotee to the divine and contributing to environmental conservation.</p>
+                <a href="#contact" class="btn btn-primary">Contact Now</a>
+            </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -183,6 +219,11 @@
                             <img src="./images/10.jpg" width="100%">
                         </div>
                         <h5 class="mb-0">Trees for Maha Shivratri</h5>
+                        <a href="javascript:void(0);" class="learn-more-link" onclick="toggleDetails(this)">Learn more<i class="fa fa-arrow-right ms-3"></i></a>
+            <div class="details" style="display: none; margin-top: 10px;">
+                <p class="ttttt">A significant Hindu festival celebrated with great fervor. Planting trees on this auspicious occasion is a meaningful way to connect with the divine and contribute to environmental conservation.</p>
+                <a href="#contact" class="btn btn-primary">Contact Now</a>
+            </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -191,6 +232,11 @@
                             <img src="./images/11.jpg" width="100%">
                         </div>
                         <h5 class="mb-0">Trees for Shree Ram in Ayodhya Ji</h5>
+                        <a href="javascript:void(0);" class="learn-more-link" onclick="toggleDetails(this)">Learn more<i class="fa fa-arrow-right ms-3"></i></a>
+            <div class="details" style="display: none; margin-top: 10px;">
+                <p class="ttttt">Ayodhya, the birthplace of Lord Rama, holds immense spiritual significance for Hindus worldwide. Planting trees in this sacred city is a meaningful way to connect with the divine and contribute to environmental conservation.</p>
+                <a href="#contact" class="btn btn-primary">Contact Now</a>
+            </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -199,48 +245,111 @@
                             <img src="./images/12.jpg" width="100%">
                         </div>
                         <h5 class="mb-0">Trees for Kanya Pujan on Navratri</h5>
+                        <a href="javascript:void(0);" class="learn-more-link" onclick="toggleDetails(this)">Learn more<i class="fa fa-arrow-right ms-3"></i></a>
+            <div class="details" style="display: none; margin-top: 10px;">
+                <p class="ttttt">Navratri, the nine nights dedicated to the worship of the Divine Feminine, is a significant Hindu festival. Planting trees on this auspicious occasion, especially during Kanya Pujan, is a meaningful way to connect with the divine and contribute to environmental conservation.</p>
+                <a href="#contact" class="btn btn-primary">Contact Now</a>
+            </div>
                     </div>
                 </div>
             </div>
-            <br><br>
-            <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="text-center rounded py-4 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
-                        <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 100%; height: 100%;">
-                            <img src="./images/four.jpg" width="100%">
+
+
+            <!-- <div class="row g-4">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded d-flex h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="img/service-1.jpg" alt="">
                         </div>
-                        <h5 class="mb-0">Trees for Mother</h5>
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-3">
+                                <img class="img-fluid" src="img/icon/icon-3.png" alt="Icon">
+                            </div>
+                            <h4 class="mb-3">Landscaping</h4>
+                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="text-center rounded py-4 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
-                        <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 100%; height: 100%;">
-                            <img src="./images/three.jpg" width="100%">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded d-flex h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="img/service-2.jpg" alt="">
                         </div>
-                        <h5 class="mb-0">Trees for Friendship</h5>
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-3">
+                                <img class="img-fluid" src="img/icon/icon-6.png" alt="Icon">
+                            </div>
+                            <h4 class="mb-3">Pruning plants</h4>
+                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="text-center rounded py-4 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
-                        <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 100%; height: 100%;">
-                            <img src="./images/two.png" width="100%">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded d-flex h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="img/service-3.jpg" alt="">
                         </div>
-                        <h5 class="mb-0">Trees for Grandmother</h5>
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-3">
+                                <img class="img-fluid" src="img/icon/icon-5.png" alt="Icon">
+                            </div>
+                            <h4 class="mb-3">Irrigation & Drainage</h4>
+                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                        </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="text-center rounded py-4 px-4" style="box-shadow: 0 0 45px rgba(0,0,0,.08);">
-                        <div class="btn-square bg-light rounded-circle mx-auto mb-4" style="width: 100%; height: 100%;">
-                            <img src="./images/one.jpg" width="100%">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="service-item rounded d-flex h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="img/service-4.jpg" alt="">
                         </div>
-                        <h5 class="mb-0">Trees for Teachers</h5>
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-3">
+                                <img class="img-fluid" src="img/icon/icon-4.png" alt="Icon">
+                            </div>
+                            <h4 class="mb-3">Garden Maintenance </h4>
+                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="service-item rounded d-flex h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="img/service-5.jpg" alt="">
+                        </div>
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-3">
+                                <img class="img-fluid" src="img/icon/icon-8.png" alt="Icon">
+                            </div>
+                            <h4 class="mb-3">Green Technology</h4>
+                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item rounded d-flex h-100">
+                        <div class="service-img rounded">
+                            <img class="img-fluid" src="img/service-6.jpg" alt="">
+                        </div>
+                        <div class="service-text rounded p-5">
+                            <div class="btn-square rounded-circle mx-auto mb-3">
+                                <img class="img-fluid" src="img/icon/icon-2.png" alt="Icon">
+                            </div>
+                            <h4 class="mb-3">Urban Gardening</h4>
+                            <p class="mb-4">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet.</p>
+                            <a class="btn btn-sm" href=""><i class="fa fa-plus text-primary me-2"></i>Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
         </div>
     </div>
     <!-- Service End -->
-
 
     <!-- Feature Start
     <div class="container-fluid py-5">
@@ -361,6 +470,62 @@
     </div> -->
     <!-- Features End -->
 
+    <!-- Quote Start -->
+    <div class="container-fluid quote my-5 py-5" id="contact" style="margin-top: 140px !important;" data-parallax="scroll" data-image-src="images/carousel.webp">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="bg-white rounded p-4 p-sm-5 wow fadeIn" data-wow-delay="0.5s">
+                        <h1 class="display-5 text-center mb-5">Get A Consultation Today</h1>
+                        <form
+  action="https://formspree.io/f/xgvwdrqd"
+  method="POST"
+>
+                        <div class="row g-3">
+                            
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" name="Name" class="form-control bg-light border-0" id="gname" placeholder="Gurdian Name">
+                                    <label for="gname">Your Name</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="email" name="Email" class="form-control bg-light border-0" id="gmail" placeholder="Gurdian Email">
+                                    <label for="gmail">Your Email</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" name="Phone" class="form-control bg-light border-0" id="cname" placeholder="Child Name">
+                                    <label for="cname">Your Mobile</label>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-floating">
+                                    <input type="text" name="Ocassion" class="form-control bg-light border-0" id="cage" placeholder="Child Age">
+                                    <label for="cage">Trees required for (Ocassion) </label>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-floating">
+                                    <textarea name="Message" class="form-control bg-light border-0" placeholder="Leave a message here" id="message" style="height: 100px"></textarea>
+                                    <label for="message">Message</label>
+                                </div>
+                            </div>
+                            <div class="col-12 text-center">
+                                <button class="btn btn-primary py-3 px-4" name="Submit" type="submit">Submit Now</button>
+                            </div>
+                            
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Quote End -->
+
 <!-- Footer Start -->
 <div class="container-fluid bg-dark text-light footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
@@ -371,10 +536,10 @@
                     Kolkata-700001</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 98300 85648</p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>Info.thevanika@gmail.com</p>
-                <div class="d-flex pt-2">
+                <!-- <div class="d-flex pt-2">
                     <a class="btn btn-square btn-outline-light rounded-circle me-2" href=""><i class="fab fa-instagram"></i> </a>
              
-                </div>
+                </div> -->
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-white mb-4" ">Quick Links</h4>
@@ -453,6 +618,18 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+        function toggleDetails(element) {
+            const details = element.nextElementSibling;
+            if (details.style.display === "none" || details.style.display === "") {
+                details.style.display = "block";
+                element.textContent = "Show less";
+            } else {
+                details.style.display = "none";
+                element.textContent = "Learn more";
+            }
+        }
+    </script>
 </body>
 
 </html>
